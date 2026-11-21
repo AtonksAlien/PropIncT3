@@ -1,0 +1,45 @@
+raster_index,clc_code,descrizione,presente_mercadante
+1,111,"Tessuto urbano continuo",
+2,112,"Tessuto urbano discontinuo",si
+3,121,"Aree industriali o commerciali",
+4,122,"Reti stradali e ferroviarie",
+5,123,"Aree portuali",
+6,124,"Aeroporti",
+7,131,"Aree estrattive",si
+8,132,"Discariche",
+9,133,"Cantieri",
+10,141,"Aree verdi urbane",
+11,142,"Aree sportive e ricreative",
+12,211,"Seminativi non irrigui",si
+13,212,"Seminativi irrigui",
+14,213,"Risaie",
+15,221,"Vigneti",
+16,222,"Frutteti",
+17,223,"Oliveti",si
+18,231,"Prati stabili",si
+19,241,"Colture annuali associate a permanenti",si
+20,242,"Sistemi colturali complessi",
+21,243,"Aree agricole con vegetazione naturale",si
+22,244,"Aree agroforestali",
+23,311,"Boschi di latifoglie",si
+24,312,"Boschi di conifere",si
+25,313,"Boschi misti",si
+26,321,"Aree a pascolo naturale",si
+27,322,"Brughiere e cespuglieti",
+28,323,"Vegetazione sclerofilla",
+29,324,"Vegetazione boschiva e arbustiva in evoluzione",si
+30,331,"Spiagge, dune, sabbie",
+31,332,"Rocce nude",
+32,333,"Aree con vegetazione rada",si
+33,334,"Aree percorse da incendi",
+34,335,"Ghiacciai e nevi perenni",
+35,411,"Paludi interne",
+36,412,"Torbiere",
+37,421,"Paludi salmastre",
+38,422,"Saline",
+39,423,"Zone intertidali",
+40,511,"Corsi d'acqua",
+41,512,"Bacini d'acqua",
+42,521,"Lagune",
+43,522,"Estuari",
+44,523,"Mari e oceani",

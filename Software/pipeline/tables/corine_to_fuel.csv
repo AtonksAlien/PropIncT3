@@ -1,0 +1,45 @@
+clc_code,fuel_model,motivazione
+111,0,Tessuto urbano continuo: non combustibile
+112,0,Tessuto urbano discontinuo: non combustibile
+121,0,Aree industriali o commerciali: non combustibile
+122,0,Reti stradali e ferroviarie: non combustibile
+123,0,Aree portuali: non combustibile
+124,0,Aeroporti: superfici pavimentate prevalenti
+131,0,Aree estrattive: non combustibile
+132,0,Discariche: non combustibile
+133,0,Cantieri: terreno nudo
+141,1,Aree verdi urbane: erba bassa
+142,1,Aree sportive e ricreative: erba bassa
+211,1,Seminativi non irrigui: stoppie secche a fine estate (erba bassa)
+212,0,Seminativi irrigui: colture irrigate, verdi e umide in estate
+213,0,Risaie: allagate
+221,1,Vigneti: inerbimento basso tra le file
+222,1,Frutteti: inerbimento basso tra le file
+223,1,Oliveti: inerbimento basso tra le file
+231,1,Prati stabili: erba bassa
+241,1,Colture annuali e permanenti: residui erbacei
+242,1,Sistemi colturali complessi: mosaico di colture e stoppie
+243,2,Agricolo con vegetazione naturale: erba sotto copertura rada
+244,2,Aree agroforestali (pascoli arborati, sugherete pascolate): erba sotto copertura rada
+311,9,Boschi di latifoglie: lettiera di latifoglie
+312,10,Boschi di conifere: lettiera di pino con sottobosco (rimboschimento di Mercadante)
+313,8,Boschi misti: lettiera compatta
+321,1,Pascoli naturali: erba bassa
+322,5,Brughiere e cespuglieti: arbusti bassi
+323,4,Vegetazione sclerofilla: macchia mediterranea alta e densa (modello chaparral)
+324,6,Bosco e arbusteto in evoluzione: arbusti
+331,0,Spiagge e dune: sabbia
+332,0,Rocce nude: non combustibile
+333,1,Vegetazione rada: erba bassa discontinua
+334,1,Aree percorse da incendi: ricrescita erbacea
+335,0,Ghiacciai e nevi perenni: non combustibile
+411,0,Paludi interne: vegetazione umida
+412,0,Torbiere: umide
+421,0,Paludi salmastre: umide
+422,0,Saline: non combustibile
+423,0,Zone intertidali: non combustibile
+511,0,Corsi d'acqua: non combustibile
+512,0,Bacini d'acqua: non combustibile
+521,0,Lagune: non combustibile
+522,0,Estuari: non combustibile
+523,0,Mari e oceani: non combustibile

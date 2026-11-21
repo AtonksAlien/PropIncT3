@@ -1,0 +1,41 @@
+{
+  "zone": "mercadante",
+  "name": "Foresta di Mercadante",
+  "crs": "EPSG:32633",
+  "resolution_m": 10,
+  "aoi_utm": {
+    "xmin": 639000,
+    "ymin": 4524000,
+    "xmax": 645000,
+    "ymax": 4530000
+  },
+  "aoi_wgs84": {
+    "lon_min": 16.6491,
+    "lat_min": 40.8542,
+    "lon_max": 16.7217,
+    "lat_max": 40.9093
+  },
+  "processing_buffer_m": 500,
+  "grid_cells": {
+    "cols": 600,
+    "rows": 600
+  },
+  "inputs": {
+    "dem": [
+      "raw/dem/tinitaly/e45510_s10.tif",
+      "raw/dem/tinitaly/e45515_s10.tif"
+    ],
+    "ndvi_bands": {
+      "red": "raw/sentinel2/2026-09-05-00_00_2026-09-05-23_59_Sentinel-2_L2A_B04_(Raw).tiff",
+      "nir": "raw/sentinel2/2026-09-05-00_00_2026-09-05-23_59_Sentinel-2_L2A_B08_(Raw).tiff"
+    },
+    "ndvi_rgb": "raw/sentinel2/2026-09-05-00_00_2026-09-05-23_59_Sentinel-2_L2A_NDVI.tiff",
+    "corine": "raw/landcover/U2018_CLC2018_V2020_20u1.tif"
+  },
+  "dem_source": "TINITALY 1.1 (INGV), 10 m, CC BY 4.0, doi 10.13127/tinitaly/1.1",
+  "sentinel2_date": "2026-09-05",
+  "meteo_point_wgs84": {
+    "lat": 40.8818,
+    "lon": 16.6854
+  }
+}

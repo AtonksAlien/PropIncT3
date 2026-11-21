@@ -1,0 +1,113 @@
+{
+  "machine": {
+    "cpu": "AMD Ryzen 5 3600 6-Core Processor",
+    "cores": 12,
+    "ramGB": 15.9,
+    "node": "v22.14.0",
+    "os": "win32 10.0.19045"
+  },
+  "repeat": 3,
+  "rows": [
+    {
+      "case": "C_tutta",
+      "N": 250,
+      "cells": 62500,
+      "ms": 102.9811,
+      "burned": 62500,
+      "maxRSSMB": 58.734375,
+      "cellsComputed": 62500,
+      "fieldSteps": 1
+    },
+    {
+      "case": "C_3ore",
+      "N": 250,
+      "cells": 62500,
+      "ms": 70.3479,
+      "burned": 23880,
+      "maxRSSMB": 58.734375,
+      "cellsComputed": 43464,
+      "fieldSteps": 18
+    },
+    {
+      "case": "C_tutta",
+      "N": 500,
+      "cells": 250000,
+      "ms": 336.29879999999997,
+      "burned": 242305,
+      "maxRSSMB": 61.54296875,
+      "cellsComputed": 243672,
+      "fieldSteps": 1
+    },
+    {
+      "case": "C_3ore",
+      "N": 500,
+      "cells": 250000,
+      "ms": 66.39850000000001,
+      "burned": 10422,
+      "maxRSSMB": 62.89453125,
+      "cellsComputed": 22086,
+      "fieldSteps": 18
+    },
+    {
+      "case": "C_tutta",
+      "N": 1000,
+      "cells": 1000000,
+      "ms": 1332.5573,
+      "burned": 952512,
+      "maxRSSMB": 99.4921875,
+      "cellsComputed": 960680,
+      "fieldSteps": 1
+    },
+    {
+      "case": "C_3ore",
+      "N": 1000,
+      "cells": 1000000,
+      "ms": 175.7517,
+      "burned": 62150,
+      "maxRSSMB": 86.6640625,
+      "cellsComputed": 97501,
+      "fieldSteps": 18
+    },
+    {
+      "case": "C_tutta",
+      "N": 1500,
+      "cells": 2250000,
+      "ms": 3460.9428,
+      "burned": 2130524,
+      "maxRSSMB": 163.47265625,
+      "cellsComputed": 2149334,
+      "fieldSteps": 1
+    },
+    {
+      "case": "C_3ore",
+      "N": 1500,
+      "cells": 2250000,
+      "ms": 329.3816,
+      "burned": 158857,
+      "maxRSSMB": 131.65625,
+      "cellsComputed": 209155,
+      "fieldSteps": 18
+    },
+    {
+      "case": "C_tutta",
+      "N": 2000,
+      "cells": 4000000,
+      "ms": 6262.281999999999,
+      "burned": 3778565,
+      "maxRSSMB": 253.6953125,
+      "cellsComputed": 3814506,
+      "fieldSteps": 1
+    },
+    {
+      "case": "C_3ore",
+      "N": 2000,
+      "cells": 4000000,
+      "ms": 346.3434,
+      "burned": 179499,
+      "maxRSSMB": 189.91015625,
+      "cellsComputed": 235715,
+      "fieldSteps": 18
+    }
+  ],
+  "generato": "2026-11-17T14:45:11.237Z"
+}

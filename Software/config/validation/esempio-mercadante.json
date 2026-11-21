@@ -1,0 +1,15 @@
+{
+  "case": "esempio-mercadante",
+  "name": "Esempio sintetico a Mercadante (non un incendio reale)",
+  "synthetic": true,
+  "zone": "mercadante",
+  "perimeter": "validation/esempio/perimetro.geojson",
+  "perimeter_source": "ellisse disegnata a mano per provare lo strumento",
+  "hotspots": "validation/esempio/punti_caldi_firms.csv",
+  "ignitions_wgs84": [[40.86586, 16.67378]],
+  "start": "2023-07-25T13:00+02:00",
+  "start_source": "data della demo, meteo già in cache",
+  "observed_end": "2023-07-25T16:00+02:00",
+  "hours": 3,
+  "barriers": true
+}

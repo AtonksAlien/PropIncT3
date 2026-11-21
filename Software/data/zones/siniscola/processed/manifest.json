@@ -1,0 +1,142 @@
+{
+  "zone": "siniscola",
+  "name": "Siniscola (Sardegna) — validazione EMSR374",
+  "created": "2026-11-17",
+  "crs": "EPSG:32632",
+  "resolution_m": 10,
+  "rows": 800,
+  "cols": 800,
+  "origin_utm": {
+    "x": 551000,
+    "y": 4490500
+  },
+  "row_order": "nord-sud",
+  "bounds_utm": {
+    "xmin": 551000,
+    "ymin": 4482500,
+    "xmax": 559000,
+    "ymax": 4490500
+  },
+  "bounds_wgs84": [
+    [
+      40.49110363784739,
+      9.601808047269952
+    ],
+    [
+      40.56370157362948,
+      9.696949296983407
+    ]
+  ],
+  "center_wgs84": [
+    40.52740260573843,
+    9.64937867212668
+  ],
+  "layers": {
+    "elevation": {
+      "file": "elevation.npy",
+      "dtype": "float32"
+    },
+    "slope": {
+      "file": "slope.npy",
+      "dtype": "float32"
+    },
+    "aspect": {
+      "file": "aspect.npy",
+      "dtype": "float32"
+    },
+    "tan_slope": {
+      "file": "tan_slope.npy",
+      "dtype": "float32"
+    },
+    "ndvi": {
+      "file": "ndvi.npy",
+      "dtype": "float32"
+    },
+    "clc": {
+      "file": "clc.npy",
+      "dtype": "int16"
+    },
+    "fuel": {
+      "file": "fuel.npy",
+      "dtype": "uint8"
+    },
+    "barriers": {
+      "file": "barriers.npy",
+      "dtype": "uint8"
+    },
+    "barrier_width": {
+      "file": "barrier_width.npy",
+      "dtype": "uint8"
+    }
+  },
+  "units": {
+    "elevation": "m",
+    "slope": "gradi",
+    "aspect": "gradi da Nord, -1 = piatto",
+    "tan_slope": "-",
+    "ndvi": "-",
+    "clc": "codice CLC",
+    "fuel": "Anderson 13, 0 = non combustibile",
+    "barrier_width": "metri di fascia senza combustibile nelle celle di barriera; 255 = invalicabile",
+    "barriers": "0 nessuna, 1 strada asfaltata, 2 pista o sentiero (non ferma il fuoco), 3 ferrovia, 4 acqua"
+  },
+  "sources": {
+    "dem": "TINITALY 1.1 (INGV), 10 m, CC BY 4.0, doi 10.13127/tinitaly/1.1",
+    "ndvi": "Sentinel-2 L2A 2019-07 (mosaico 10–27/07/2019), calcolato da B04/B08 (pixel di partenza 10 m)",
+    "landcover": "CORINE Land Cover 2018, 100 m",
+    "barriers": "OpenStreetMap (Overpass, 2026-11-17), © OpenStreetMap contributors, ODbL"
+  },
+  "checks": [
+    {
+      "ok": true,
+      "msg": "CRS EPSG:32632 (atteso UTM Nord, EPSG:326xx)"
+    },
+    {
+      "ok": true,
+      "msg": "risoluzione 10 m (attesa 10 m)"
+    },
+    {
+      "ok": true,
+      "msg": "quota 14-1047 m"
+    },
+    {
+      "ok": true,
+      "msg": "pendenza mediana 17.6 gradi, max 79.0"
+    },
+    {
+      "ok": true,
+      "msg": "NDVI -0.07-0.96, mediana 0.48, celle senza dato 0"
+    },
+    {
+      "ok": true,
+      "msg": "pendenza mediana bordo del bosco / zone lontane dal bordo 0.98 (sopra 1,5: chiome nel DEM?)"
+    },
+    {
+      "ok": true,
+      "msg": "classi CORINE tutte associate a un combustibile"
+    },
+    {
+      "ok": true,
+      "msg": "celle combustibili 87%"
+    }
+  ],
+  "barriers": {
+    "cells": {
+      "1": 8230,
+      "2": 16474,
+      "3": 0,
+      "4": 683
+    },
+    "objects": {
+      "1": 352,
+      "2": 468,
+      "4": 7
+    },
+    "blockedFuelCells": 5874,
+    "blocking": [
+      1,
+      3,
+      4
+    ]
+  }
+}

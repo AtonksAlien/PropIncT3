@@ -1,0 +1,42 @@
+{
+  "zone": "siniscola",
+  "name": "Siniscola (Sardegna) — validazione EMSR374",
+  "crs": "EPSG:32632",
+  "resolution_m": 10,
+  "aoi_utm": {
+    "xmin": 551000,
+    "ymin": 4482500,
+    "xmax": 559000,
+    "ymax": 4490500
+  },
+  "aoi_wgs84": {
+    "lon_min": 9.6018,
+    "lat_min": 40.4911,
+    "lon_max": 9.6969,
+    "lat_max": 40.5637
+  },
+  "aoi_note": "8 × 8 km centrati sul perimetro EMSR374 (x 553414–557026, y 4484660–4488628): margini O 2,4 km, E 2,0 km, S 2,2 km, N 1,9 km.",
+  "processing_buffer_m": 500,
+  "grid_cells": {
+    "cols": 800,
+    "rows": 800
+  },
+  "inputs": {
+    "dem": [
+      "raw/dem/tinitaly/w44555_s10.tif"
+    ],
+    "ndvi_bands": {
+      "red": "raw/sentinel2/S2_2019-07_B04.tiff",
+      "nir": "raw/sentinel2/S2_2019-07_B08.tiff"
+    },
+    "ndvi_rgb": "raw/sentinel2/S2_2019-07_NDVI.tiff",
+    "corine": "raw/landcover/U2018_CLC2018_V2020_20u1.tif"
+  },
+  "dem_source": "TINITALY 1.1 (INGV), 10 m, CC BY 4.0, doi 10.13127/tinitaly/1.1",
+  "sentinel2_date": "2019-07 (mosaico 10–27/07/2019)",
+  "meteo_point_wgs84": {
+    "lat": 40.5274,
+    "lon": 9.6494
+  },
+  "sentinel2_note": "Esportazione del Copernicus Browser sull'intervallo 10–27 luglio 2019 (la scheda EMS indica un'immagine pre-evento del 13/07/2019); bande a 10 m; il margine sud di elaborazione manca per 382 m (non serve all'NDVI)."
+}

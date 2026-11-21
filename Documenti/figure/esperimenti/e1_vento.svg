@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" role="img" aria-label="Velocità della testa del fuoco al variare del vento">
+<title>Velocità della testa del fuoco al variare del vento</title>
+<rect width="720" height="420" fill="#fcfcfb"/>
+<text x="66" y="26" font-size="16" font-weight="600" fill="#0b0b0b">Velocità della testa del fuoco al variare del vento</text>
+<text x="66" y="45" font-size="12" fill="#52514e">Terreno piano; vento a 10 m da Ovest; umidità morta 6/7/8%, viva L1</text>
+<line x1="66" y1="62" x2="84" y2="62" stroke="#2a78d6" stroke-width="2" />
+<circle cx="75" cy="62" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="90" y="66" font-size="12" fill="#52514e">erba (1)</text>
+<line x1="152.8" y1="62" x2="170.8" y2="62" stroke="#eb6834" stroke-width="2" />
+<circle cx="161.8" cy="62" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="176.8" y="66" font-size="12" fill="#52514e">macchia (4)</text>
+<line x1="259.4" y1="62" x2="277.4" y2="62" stroke="#1baf7a" stroke-width="2" />
+<circle cx="268.4" cy="62" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="283.4" y="66" font-size="12" fill="#52514e">pineta (10)</text>
+<line x1="66" x2="570" y1="362" y2="362" stroke="#e4e3de" stroke-width="1"/><text x="58" y="366" font-size="11" text-anchor="end" fill="#52514e">0,1</text>
+<line x1="66" x2="570" y1="280.3232394859647" y2="280.3232394859647" stroke="#e4e3de" stroke-width="1"/><text x="58" y="284.3232394859647" font-size="11" text-anchor="end" fill="#52514e">1</text>
+<line x1="66" x2="570" y1="198.6464789719293" y2="198.6464789719293" stroke="#e4e3de" stroke-width="1"/><text x="58" y="202.6464789719293" font-size="11" text-anchor="end" fill="#52514e">10</text>
+<line x1="66" x2="570" y1="116.96971845789395" y2="116.96971845789395" stroke="#e4e3de" stroke-width="1"/><text x="58" y="120.96971845789395" font-size="11" text-anchor="end" fill="#52514e">100</text>
+<line x1="66" x2="66" y1="362" y2="366" stroke="#9b9a95"/><text x="66" y="380" font-size="11" text-anchor="middle" fill="#52514e">0</text>
+<line x1="150" x2="150" y1="362" y2="366" stroke="#9b9a95"/><text x="150" y="380" font-size="11" text-anchor="middle" fill="#52514e">2</text>
+<line x1="234" x2="234" y1="362" y2="366" stroke="#9b9a95"/><text x="234" y="380" font-size="11" text-anchor="middle" fill="#52514e">4</text>
+<line x1="318" x2="318" y1="362" y2="366" stroke="#9b9a95"/><text x="318" y="380" font-size="11" text-anchor="middle" fill="#52514e">6</text>
+<line x1="402" x2="402" y1="362" y2="366" stroke="#9b9a95"/><text x="402" y="380" font-size="11" text-anchor="middle" fill="#52514e">8</text>
+<line x1="486" x2="486" y1="362" y2="366" stroke="#9b9a95"/><text x="486" y="380" font-size="11" text-anchor="middle" fill="#52514e">10</text>
+<line x1="570" x2="570" y1="362" y2="366" stroke="#9b9a95"/><text x="570" y="380" font-size="11" text-anchor="middle" fill="#52514e">12</text>
+<line x1="66" x2="570" y1="362" y2="362" stroke="#9b9a95" stroke-width="1"/>
+<text x="318" y="400" font-size="12" text-anchor="middle" fill="#52514e">Vento a 10 m (m/s)</text>
+<text transform="translate(16 220) rotate(-90)" font-size="12" text-anchor="middle" fill="#52514e">Velocità della testa (m/min, scala log)</text>
+<polyline fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"  points="66.0,268.3 108.0,257.1 150.0,235.0 192.0,214.2 234.0,196.7 276.0,182.1 318.0,169.7 360.0,159.0 402.0,149.5 444.0,141.2 486.0,133.6 528.0,126.7 570.0,120.5"/>
+<circle cx="66.0" cy="268.3" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 0 → 1,4</title></circle>
+<circle cx="108.0" cy="257.1" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 1 → 1,92</title></circle>
+<circle cx="150.0" cy="235.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 2 → 3,58</title></circle>
+<circle cx="192.0" cy="214.2" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 3 → 6,46</title></circle>
+<circle cx="234.0" cy="196.7" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 4 → 10,6</title></circle>
+<circle cx="276.0" cy="182.1" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 5 → 16</title></circle>
+<circle cx="318.0" cy="169.7" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 6 → 22,6</title></circle>
+<circle cx="360.0" cy="159.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 7 → 30,6</title></circle>
+<circle cx="402.0" cy="149.5" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 8 → 39,9</title></circle>
+<circle cx="444.0" cy="141.2" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 9 → 50,6</title></circle>
+<circle cx="486.0" cy="133.6" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 10 → 62,6</title></circle>
+<circle cx="528.0" cy="126.7" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 11 → 75,9</title></circle>
+<circle cx="570.0" cy="120.5" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>erba (1): Vento a 10 m (m/s) 12 → 90,6</title></circle>
+<polyline fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"  points="66.0,256.2 108.0,218.2 150.0,191.8 192.0,174.0 234.0,160.7 276.0,150.1 318.0,141.3 360.0,133.9 402.0,127.3 444.0,121.5 486.0,116.3 528.0,111.6 570.0,107.3"/>
+<circle cx="66.0" cy="256.2" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 0 → 1,97</title></circle>
+<circle cx="108.0" cy="218.2" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 1 → 5,77</title></circle>
+<circle cx="150.0" cy="191.8" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 2 → 12,1</title></circle>
+<circle cx="192.0" cy="174.0" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 3 → 20</title></circle>
+<circle cx="234.0" cy="160.7" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 4 → 29,1</title></circle>
+<circle cx="276.0" cy="150.1" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 5 → 39,3</title></circle>
+<circle cx="318.0" cy="141.3" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 6 → 50,3</title></circle>
+<circle cx="360.0" cy="133.9" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 7 → 62,1</title></circle>
+<circle cx="402.0" cy="127.3" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 8 → 74,7</title></circle>
+<circle cx="444.0" cy="121.5" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 9 → 87,9</title></circle>
+<circle cx="486.0" cy="116.3" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 10 → 102</title></circle>
+<circle cx="528.0" cy="111.6" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 11 → 116</title></circle>
+<circle cx="570.0" cy="107.3" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>macchia (4): Vento a 10 m (m/s) 12 → 131</title></circle>
+<polyline fill="none" stroke="#1baf7a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"  points="66.0,316.4 108.0,310.4 150.0,302.0 192.0,293.8 234.0,286.1 276.0,279.2 318.0,272.9 360.0,267.2 402.0,262.0 444.0,257.2 486.0,252.8 528.0,248.7 570.0,244.9"/>
+<circle cx="66.0" cy="316.4" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 0 → 0,36</title></circle>
+<circle cx="108.0" cy="310.4" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 1 → 0,43</title></circle>
+<circle cx="150.0" cy="302.0" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 2 → 0,54</title></circle>
+<circle cx="192.0" cy="293.8" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 3 → 0,68</title></circle>
+<circle cx="234.0" cy="286.1" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 4 → 0,85</title></circle>
+<circle cx="276.0" cy="279.2" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 5 → 1,03</title></circle>
+<circle cx="318.0" cy="272.9" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 6 → 1,23</title></circle>
+<circle cx="360.0" cy="267.2" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 7 → 1,45</title></circle>
+<circle cx="402.0" cy="262.0" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 8 → 1,68</title></circle>
+<circle cx="444.0" cy="257.2" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 9 → 1,92</title></circle>
+<circle cx="486.0" cy="252.8" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 10 → 2,17</title></circle>
+<circle cx="528.0" cy="248.7" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 11 → 2,44</title></circle>
+<circle cx="570.0" cy="244.9" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>pineta (10): Vento a 10 m (m/s) 12 → 2,71</title></circle>
+<text x="578" y="111.31726912631126" font-size="12" fill="#0b0b0b">macchia (4)</text>
+<text x="578" y="125.31726912631126" font-size="12" fill="#0b0b0b">erba (1)</text>
+<text x="578" y="248.94578642153223" font-size="12" fill="#0b0b0b">pineta (10)</text>
+</svg>

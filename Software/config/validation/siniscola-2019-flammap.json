@@ -1,0 +1,41 @@
+{
+  "case": "siniscola-2019-flammap",
+  "name": "Incendio di Siniscola (Nuoro), 28–29 luglio 2019 — Copernicus EMS EMSR374 — ingressi di FlamMap (vento e umidità costanti, senza strade, NDVI e vento sul terreno)",
+  "zone": "siniscola",
+  "perimeter": "raw/validation/EMSR374_vector/EMSR374_AOI01_GRA_PRODUCT_observedEventA_r1_v1.json",
+  "perimeter_source": "Copernicus EMS Rapid Mapping EMSR374, prodotto di grading AOI01: 3 poligoni 'Forest Fire' (576 ha), fotointerpretazione da SPOT 6/7 del 01/08/2019 09:52 UTC",
+  "perimeter_filter": null,
+  "hotspots": "raw/validation/firms_siniscola_2019-07-28_2019-07-31.csv",
+  "hotspots_note": "Estratto 28-31 luglio da VIIRS S-NPP, VIIRS NOAA-20 e MODIS (archivi Italia 2019): 81 punti; primo passaggio MODIS 28/07 20:27 UTC (2 punti sul lato ovest del perimetro).",
+  "ignitions_wgs84": [
+    [
+      40.524924,
+      9.635103
+    ]
+  ],
+  "ignitions_note": "Punto della SS 131 Dcn dentro il perimetro bruciato più vicino al primo rilevamento satellitare (MODIS 28/07 20:27 UTC, centro 40,5191 N 9,6319 E, che cade fuori dal perimetro). Cronache: innesco presso la SS 131 Dcn al km 89-90, tra il bivio per Lula e la zona industriale; coordinate esatte non pubblicate. Geometria della strada dal layer transportationL del pacchetto EMS. Criterio fissato dopo aver visto l'insieme con l'innesco MODIS: la variante resta nel caso siniscola-2019-innesco-modis.",
+  "ignition_radius_m": 500,
+  "start": "2019-07-28T21:05+02:00",
+  "start_source": "Cronache del 29/07/2019 (Sky TG24, Repubblica, Cronache Nuoresi, Open, AGI, segnalate dall'utente): fiamme divampate poco dopo le 21:00 del 28 luglio, con forte maestrale; mezzi aerei solo dall'alba del 29.",
+  "start_window_min": [
+    0,
+    25
+  ],
+  "observed_end": null,
+  "hours": 24,
+  "barriers": false,
+  "wind": {
+    "speed": 5.655,
+    "from": 275
+  },
+  "moisture": {
+    "m1": 0.11,
+    "m10": 0.1,
+    "m100": 0.11,
+    "herb": 0.3,
+    "woody": 0.6
+  },
+  "live_ndvi": false,
+  "terrain_wind": "off",
+  "flammap_note": "Generato da validation/flammap_prep.js: medie su 360 min dall'innesco, meteo Open-Meteo ecmwf_ifs; vento medio a 10 m 5.58 m/s, in FlamMap 11 mph a 20 ft (= 5.655 m/s a 10 m); umidità arrotondate al punto percentuale come nel file .fms."
+}

@@ -1,0 +1,42 @@
+{
+  "zone": "dualchi",
+  "name": "Dualchi (Sardegna) — validazione EMSR377",
+  "crs": "EPSG:32632",
+  "resolution_m": 10,
+  "aoi_utm": {
+    "xmin": 486000,
+    "ymin": 4451000,
+    "xmax": 494000,
+    "ymax": 4459000
+  },
+  "aoi_wgs84": {
+    "lon_min": 8.8353,
+    "lat_min": 40.2093,
+    "lon_max": 8.9295,
+    "lat_max": 40.2815
+  },
+  "aoi_note": "8 × 8 km centrati sul perimetro EMSR377 (16 nov 2026): perimetro x 488621–490754, y 4452730–4457225; margini O 2,6 km, E 3,2 km, S 1,7 km, N 1,8 km. La versione precedente tagliava il perimetro a nord di 225 m.",
+  "processing_buffer_m": 500,
+  "grid_cells": {
+    "cols": 800,
+    "rows": 800
+  },
+  "inputs": {
+    "dem": [
+      "raw/dem/tinitaly/w44545_s10/w44545_s10.tif"
+    ],
+    "ndvi_bands": {
+      "red": "raw/sentinel2/2019-08-02-00_00_2019-08-02-23_59_Sentinel-2_L2A_B04_(Raw).tiff",
+      "nir": "raw/sentinel2/2019-08-02-00_00_2019-08-02-23_59_Sentinel-2_L2A_B08_(Raw).tiff"
+    },
+    "ndvi_rgb": "raw/sentinel2/2019-08-02-00_00_2019-08-02-23_59_Sentinel-2_L2A_NDVI.tiff",
+    "corine": "raw/landcover/U2018_CLC2018_V2020_20u1.tif"
+  },
+  "dem_source": "TINITALY 1.1 (INGV), 10 m, CC BY 4.0, doi 10.13127/tinitaly/1.1",
+  "sentinel2_date": "2019-08-02",
+  "meteo_point_wgs84": {
+    "lat": 40.2454,
+    "lon": 8.8824
+  },
+  "sentinel2_note": "Immagine L2A del 02/08/2019, 4 giorni prima dell'incendio (sostituisce quella del 28/06/2019, 39 giorni prima): bande B04/B08 a 10 m, nessuna nube evidente sulla zona (2,3% di pixel molto chiari, suolo nudo ed edifici). Scelta decisa prima dei risultati: l'immagine utile più vicina all'evento (D54)."
+}

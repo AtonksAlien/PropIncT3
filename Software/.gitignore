@@ -1,0 +1,38 @@
+# Dati grezzi (pesanti, rigenerabili): esclusi
+data/zones/*/raw/**
+!data/zones/*/raw/**/
+!data/zones/**/README.md
+# ...tranne il meteo del 25/07/2023 (pochi kB): demo, esperimenti e test funzionano anche senza rete
+!data/zones/*/raw/meteo/
+data/zones/*/raw/meteo/*
+!data/zones/*/raw/meteo/README.md
+!data/zones/*/raw/meteo/ecmwf_ifs_2023-07-22_2023-07-25_*.json
+# ...e il meteo degli incendi di validazione del 2019 (pochi kB): validazione e FlamMap riproducibili senza rete
+!data/zones/*/raw/meteo/*_2019-*.json
+# Pacchetto zona (circa 10 MB): incluso, così chi clona il repository può avviare subito la demo
+# (licenze dei dati in data/LICENZE_DATI.md). Restano fuori le copie di sicurezza e i GeoTIFF per QGIS.
+data/zones/*/processed/*.bak
+data/zones/*/processed/geotiff/
+# Risultati della validazione (rigenerabili con validation/validate.js); inclusi solo gli input dell'esempio sintetico
+data/zones/*/validation/*
+!data/zones/*/validation/esempio/
+# Ingressi di FlamMap (griglie ASCII, circa 18 MB per caso): si rigenerano con validation/flammap_prep.js.
+# Le uscite di FlamMap in risultati/ restano incluse.
+data/zones/*/flammap/*/*.asc
+!data/zones/*/flammap/risultati/*.asc
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Node
+node_modules/
+dist/
+# Varie
+.env
+.DS_Store
+*.aux.xml
+# Uscite della CLI
+out/
+# Archivi dei dati grezzi (pesanti, conservati solo in locale)
+data/zones/*/raw.rar

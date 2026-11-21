@@ -1,0 +1,16 @@
+# Configurazione per Render (https://render.com): un solo servizio web che compila l'interfaccia
+# e avvia il server Node.js (API REST + Socket.io), che distribuisce anche l'interfaccia.
+# Uso: Render → New → Blueprint → collegare il repository GitHub → Apply.
+services:
+  - type: web
+    name: propinc
+    runtime: node
+    plan: free                 # free: si sospende dopo 15 minuti senza visite; "starter" resta sempre attivo
+    rootDir: Software
+    buildCommand: npm run setup          # installa server e interfaccia e compila l'interfaccia
+    startCommand: npm start              # node backend/src/server.js, porta da $PORT
+    healthCheckPath: /api/health
+    autoDeploy: true                     # nuovo deploy a ogni push sul ramo collegato
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

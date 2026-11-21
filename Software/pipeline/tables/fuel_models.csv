@@ -1,0 +1,14 @@
+fuel_model,nome,w_1h_t_ac,w_10h_t_ac,w_100h_t_ac,w_live_herb_t_ac,w_live_woody_t_ac,sav_1h_ft,sav_live_herb_ft,sav_live_woody_ft,depth_ft,mx_dead_pct
+1,Erba bassa (30 cm),0.74,0,0,0,0,3500,0,0,1.0,12
+2,Erba sotto bosco rado o arbusti,2.00,1.00,0.50,0.50,0,3000,1500,0,1.0,15
+3,Erba alta (75 cm),3.01,0,0,0,0,1500,0,0,2.5,25
+4,Chaparral (1.8 m),5.01,4.01,2.00,0,5.01,2000,0,1500,6.0,20
+5,Arbusti bassi (0.6 m),1.00,0.50,0,0,2.00,2000,0,1500,2.0,20
+6,Arbusti radi infiammabili,1.50,2.50,2.00,0,0,1750,0,0,2.5,25
+7,Sottobosco di arbusti (southern rough),1.13,1.87,1.50,0,0.37,1750,0,1550,2.5,40
+8,Lettiera compatta di bosco chiuso,1.50,1.00,2.50,0,0,2000,0,0,0.2,30
+9,Lettiera di latifoglie o di pino,2.92,0.41,0.15,0,0,2500,0,0,0.2,25
+10,Lettiera con sottobosco,3.01,2.00,5.01,0,2.00,2000,0,1500,1.0,25
+11,Residui leggeri di taglio,1.50,4.51,5.51,0,0,1500,0,0,1.0,15
+12,Residui medi di taglio,4.01,14.03,16.53,0,0,1500,0,0,2.3,20
+13,Residui pesanti di taglio,7.01,23.04,28.05,0,0,1500,0,0,3.0,25
